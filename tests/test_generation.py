@@ -13,3 +13,5 @@ class TestGenerator(unittest.TestCase):
         self.assertTrue(locator.isupper())
         for c in ['B', '8', '5', 'S', '0', 'O', '1', 'I', 'Q']:
             self.assertTrue(c not in locator)
+        for c in ['A', 'E', 'U', 'V']:
+            self.assertTrue(c not in locator)
