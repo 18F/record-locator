@@ -6,11 +6,12 @@ try:
 except:
     import random as randomizer
 
-# This alphabet removes vowels, make it very hard for this to
-# generate words. This is for profanity avoidance.
-# It also removes characters that in poor fonts might be
-# confusing such as B,8,5,S,0,O,1,I,Q
-SAFE_ALPHABET_STRING = '234679CDFGHJKMNPRTVWXYZ'
+# This alphabet removes vowels (and the letter 'V' which looks like a 'U'),
+# make it very hard for this to generate words. This is for profanity
+# avoidance.  It also removes characters that in poor fonts might be confusing
+# such as B,8,5,S,0,O,1,I,Q
+
+SAFE_ALPHABET_STRING = '234679CDFGHJKMNPRTWXYZ'
 SAFE_ALPHABET = list(SAFE_ALPHABET_STRING)
 
 
