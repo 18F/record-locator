@@ -4,7 +4,7 @@ readme = open('README.md').read()
 
 setup(
     name="RecordLocator",
-    version="0.0",
+    version="0.1",
     packages=['recordlocator'],
     description="Generate airline style record locators",
     license="Public Domain",
